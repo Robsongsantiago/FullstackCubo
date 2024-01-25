@@ -1,12 +1,13 @@
+using FullstackCubo.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddDbContext<DashboardContext>(c => c.UseNpgsql("Host=localhost;Database=db_Fullsatckcubo;Username=postgres;Password=kcsm2014"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -18,7 +19,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+//app.UseAuthorization();
 
 app.MapControllers();
 
