@@ -10,7 +10,7 @@ namespace FullstackCubo.Data
         public DashboardContext(DbContextOptions<DashboardContext> options) :
             base(options)
         {
-
+            
         }
 
     }

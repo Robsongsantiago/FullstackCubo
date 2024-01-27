@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FullstackCubo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b57830013bba24e9c516529c409a175cec0741ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48e0d01a001cc13113c647d70ec3acfa2b58c80b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FullstackCubo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FullstackCubo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
